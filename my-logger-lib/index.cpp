@@ -143,7 +143,6 @@ int main()
   
     string phoneNumber;
     cout << "Enter phone number again (only digits allowed): ";
-    cout << "some test message"<<endl;
     getline(cin, phoneNumber);
 
     while (!isValidPhoneNumber(phoneNumber))
